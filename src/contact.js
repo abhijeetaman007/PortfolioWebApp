@@ -7,7 +7,7 @@ import git from './Assets/git.png'
 import location from './Assets/location.png'
 import call from './Assets/call.png'
 import mail from './Assets/mail.png'
-
+import twitter from './Assets/twitter.png'
 export class Contact extends Component {
     render() {
         return (
@@ -58,9 +58,10 @@ export class Contact extends Component {
                         </div>
                     </div>
                     <div className="social">     
+                        <a href="https://twitter.com/abhijeet_sinha_" target="blank"><img src={twitter} height="30px" width="30px"/></a>
                         <a href="https://www.facebook.com/abhijeet.sinha.3557" target="blank"><img src={facebook}/></a>
-                        <a href="https://www.linkedin.com/in/abhijeet-sinha-22126818a/" target="blank"><img src={lin}/></a>
-                        <a href="https://www.instagram.com/abhijeetaman007/?hl=en" target="blank"><img src={ig}/></a>
+                        <a href="https://www.linkedin.com/in/abhijeetsinha1503/" target="blank"><img src={lin}/></a>
+                        <a href="https://www.instagram.com/__abhijeet.sinha__/" target="blank"><img src={ig}/></a>
                         <a href="https://github.com/abhijeetaman007" target="blank"><img src={git}/></a>   
                     </div>
                 </div>
