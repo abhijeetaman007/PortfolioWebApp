@@ -30,7 +30,7 @@ export class Contact extends Component {
         console.log(event.target.name);
         const { name, email, subject, message } = this.state;
 
-        alert(`Hey ${name}, Your message sent Abhijeet will reach out soon!`);
+        alert(`Hey ${name}, Your message is sent Abhijeet will reach out soon! Thanks for reaching out :)`);
 
         fetch(`http://localhost:5000/api/sendmessage`, {
             method: 'POST',
