@@ -32,7 +32,7 @@ export class Contact extends Component {
 
         alert(`Hey ${name}, Your message is sent Abhijeet will reach out soon! Thanks for reaching out :)`);
 
-        fetch(`http://localhost:5000/api/sendmessage`, {
+        fetch(`/api/sendmessage`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(this.state),

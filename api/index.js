@@ -19,13 +19,13 @@ app.get('/test', (req, res) => {
 //Use Routes
 app.use('/api', Routes);
 
-// //Set static folder
-// app.use(express.static(path.join(__dirname, '../', 'build')));
-// // send index.html from build
-// app.get('/', (req, res) => {
-//     console.log(path.join(__dirname, '../', 'build'));
-//     return res.sendFile(path.join(__dirname, '../', 'build', 'index.html'));
-// });
+//Set static folder
+app.use(express.static(path.join(__dirname, '../', 'build')));
+// send index.html from build
+app.get('/', (req, res) => {
+    console.log(path.join(__dirname, '../', 'build'));
+    return res.sendFile(path.join(__dirname, '../', 'build', 'index.html'));
+});
 
 console.log('hello');
 
