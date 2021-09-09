@@ -25,7 +25,7 @@ export class Contact extends Component {
     handleSubmit(event) {
         event.preventDefault();
 
-        console.log('testing');
+        console.log('testing!!');
         console.log(event.target);
         console.log(event.target.name);
         const { name, email, subject, message } = this.state;
