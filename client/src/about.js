@@ -17,7 +17,7 @@ import oc from './Assets/oc.jpeg';
 export class About extends Component {
     render() {
         return (
-            <div>
+            <div className="about">
                 <div className="header-container">
                     <div className="wrapper">
                         <header>

@@ -53,6 +53,7 @@ export class Contact extends Component {
 
     render() {
         return (
+            <div>
             <div className="contact">
                 <div className="form-header">
                     <h2>Ready to make something kickass?</h2>
@@ -161,6 +162,7 @@ export class Contact extends Component {
                         </a>
                     </div>
                 </div>
+            </div>
             </div>
         );
     }

@@ -12,6 +12,8 @@ body{
   background: #FFFFFA;
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
   height: 72px;
+  /* height: 8vh; */
+
 }
 .wrapper{
   width: 1490px;
@@ -221,3 +223,13 @@ header .hero-image .photo-bg {
 .projimage1{
   height:200px;
 }
+
+.about{
+  background-image: url("./bg1.jpg");
+  height: 100vh;
+}
+
+/* .hero-content{
+  /* Add the blur effect */
+  /* filter: blur(8px); */
+   /* -webkit-filter: blur(8px);  */
