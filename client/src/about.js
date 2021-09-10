@@ -20,18 +20,15 @@ export class About extends Component {
                             <div className="hero-content">
                                 <h1>Hi, I’m Abhijeet Sinha</h1>
                                 <p>
-                                    I am Computer and Communication
-                                    undergraduate at Manipal Institute of
-                                    Technology.
+                                    Computer and Communication undergraduate at
+                                    Manipal Institute of Technology.
                                 </p>
                                 <br />
                                 <p>
-                                    A tech enthusiast and with Code and WebDev
-                                    as domains of my interest.I love technology
-                                    and have a keen interest in learning new
-                                    tech stuff. To push myself further in this
-                                    field I joined IEEE and IECSE, technical
-                                    clubs of my college.
+                                    A tech enthusiast with Competitive Code and
+                                    Web Development as domains of my interest.I love
+                                    technology and have a keen interest in
+                                    learning new tech stuff.
                                 </p>
                             </div>
                             <div className="hero-image">
