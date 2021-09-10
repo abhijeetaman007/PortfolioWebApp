@@ -55,8 +55,8 @@ export class Contact extends Component {
         return (
             <div className="contact">
                 <div className="form-header">
-                    <h2>Contact Me</h2>
-                    <p>Have some questions? suggestions? Want to connect?</p>
+                    <h2>Ready to make something kickass?</h2>
+                    <h5>Get in touch</h5>
                 </div>
                 <div className="form-container">
                     <Form className="form-row" onSubmit={this.handleSubmit}>
