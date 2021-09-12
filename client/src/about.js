@@ -29,10 +29,10 @@ export class About extends Component {
                                 </p>
                                 <br />
                                 <p>
-                                    A tech enthusiast with Competitive Code and
-                                    Web Development as domains of my interest.I
-                                    love technology and have a keen interest in
-                                    learning new tech stuff.
+                                    A tech enthusiast with Competitive Coding
+                                    and Web Development as domains of my
+                                    interest.I love technology and have a keen
+                                    interest in learning new tech related stuff.
                                 </p>
                             </div>
                             <div className="hero-image">
@@ -163,8 +163,9 @@ export class About extends Component {
                             Worked in a team to design and organise coding event
                             Order of Chaos from scratch, which saw participation
                             of 100+ participants from various college across the
-                            country.I contributed in developing backend of web
-                            app by implmenting attack feature, contest page and
+                            country.Order Chaos was unique game based coding
+                            event.I contributed in developing backend of web app
+                            by implmenting attack feature, contest page and
                             leaderboard using Node.js.
                         </p>
                     </div>
@@ -172,16 +173,16 @@ export class About extends Component {
                     <div className="proj1">
                         <p>
                             <h3>IECSE Forms</h3>
-                            Worked for IECSE,a techincal club and helped developing
-                            backend of IECSE Forms - a customizable form system
-                            which will be used by club for day to day work like
-                            registration of events, taking feedback etc.
-                            Implemented add,delete,edit form option with total 9
-                            question types along with an option of auto and
-                            manual close/open.Also added 3 level role based
-                            authentication as per the use case of the club.
-                            Provided ease of havinf different form types
-                            depending on use by adding options like
+                            Worked for IECSE,techincal club of my college and
+                            helped developing backend of IECSE Forms - a
+                            customizable form system which will be used by club
+                            for day to day work like registration of events,
+                            taking feedback etc. Implemented add,delete,edit
+                            form option with total 9 question types along with
+                            an option of auto and manual close/open.Also added 3
+                            level role based authentication as per the use case
+                            of the club. Provided ease of having different form
+                            types depending on use by adding options like
                             editable,non-editable, anonymous. For ease of
                             viewing and analysing user's response added download
                             csv feature, connected to google sheets using google

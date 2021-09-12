@@ -12,13 +12,15 @@ body{
   background: #FFFFFA;
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
   height: 72px;
+  /* overflow: hidden; */
+  /* width: 100vh; */
   /* height: 8vh; */
 
 }
 .wrapper{
-  width: 1490px;
+  /* width: 1490px; */
+  width: 80%; 
   margin: 0 auto;
-
 }
 nav{
   display: flex;
@@ -51,11 +53,12 @@ color: #021718;
 }
 .header-container{
   background: rgba(255, 114, 0, 0.6) url("circle_1.svg") ;
-  opacity: 0.95;
+  opacity: 0.90;
   background-repeat: no-repeat;
   background-position: right;
   background-size: 1500px;
-  min-height: 900px;
+  /* min-height: 900px; */
+  min-height: 100%;
   display: flex;
   align-items: center;
 }
@@ -233,3 +236,7 @@ header .hero-image .photo-bg {
   /* Add the blur effect */
   /* filter: blur(8px); */
    /* -webkit-filter: blur(8px);  */
+
+   /* .nav-menu_about{ */
+     /* position: relative; */
+   /* } */
